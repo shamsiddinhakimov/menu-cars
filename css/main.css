@@ -1,0 +1,78 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;800;900&display=swap);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+li{
+    list-style: none;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+a {
+    text-decoration: none;
+    font-size: 2rem;
+    color: #fff;
+}
+
+a:hover {
+   color: darkorange;
+}
+
+.car, .menu {
+    font-size: 40px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.menu {
+    background-image: url("../img/menu.jpg");
+}
+
+.bmw {
+    background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url("../img/bwm.jpg");
+}
+
+.supra {
+    background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url("../img/supra.jpg");
+}
+
+
+.ferrari {
+    background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url("../img/ferrari.jpg");
+}
+
+
+.porch {
+    background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url("../img/porche.jpg");
+}
+
+
+.menu {
+    text-align: center;
+}
+
+.menu li:not(:last-child) {
+    margin-bottom: 1.2rem;
+}
